@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#namesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+#usercont {
+    margin: 0;
+}
+
+#oppNamecont {
+    margin: 0;
+    margin-right: 50px; /* Ajustez cette valeur pour décaler l'élément */
+}
+
+#valueCont, #whosTurn, #entreNama {
+    margin-top: 20px;
+}
+
+#name {
+    padding: 5px;
+    font-size: 1em;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#find {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#loading {
+    display: none;
+    margin-top: 10px;
+    width: 30px; /* Ajustez la taille selon vos besoins */
+    height: 30px; /* Ajustez la taille selon vos besoins */
+}
+
+#bigConet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-top: 0; }
+
+
+    #cont {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-gap: 10px;
+        width: 320px; 
+        margin: 0 auto; 
+    }
+
+.btn {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #bbb;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px; /* Espace en bas avant la grille de jeu */
+}
+#retryButton {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#characterSelect {
+    padding: 10px;
+    font-size: 16px; /* Taille de la police */
+    width: 100%; /* Occupe toute la largeur du conteneur */
+    max-width: 300px; /* Largeur maximale du select */
+    margin-bottom: 20px; /* Espace en bas du select */
+    border: 1px solid #ccc; /* Bordure du select */
+    border-radius: 5px; /* Coins arrondis pour le select */
+}

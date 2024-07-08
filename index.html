@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id="namesContainer">
+        
+        <p id="usercont">Vous: <span id="user"></span></p>
+        <p id="oppNamecont">Adversaire: <span id="oppname"></span></p>
+    </div>
+    <br>
+    <p id="valueCont">You are playing as <span id="value"></span></p>
+    <br>
+    <p id="whosTurn">X's Turn</p>
+    <div id="inputContainer">
+      
+        <p id="entreNama">Enter your name</p>
+        <input type="text" placeholder="Name" id="name" autocomplete="off">
+    </div>
+    <p id="choosechar">Choose your character</p>
+    <select id="characterSelect">
+        <option value="">Loading characters...</option>
+    </select>
+    <div id="buttonContainer">
+        <button id="find">Search for a player</button>
+        <img src="loading.gif" id="loading" alt="Loading...">
+    </div>
+    <div id="bigConet">
+        <div id="cont">
+            <button id="btn1" class="btn"></button>
+            <button id="btn2" class="btn"></button>
+            <button id="btn3" class="btn"></button>
+            <button id="btn4" class="btn"></button>
+            <button id="btn5" class="btn"></button>
+            <button id="btn6" class="btn"></button>
+            <button id="btn7" class="btn"></button>
+            <button id="btn8" class="btn"></button>
+            <button id="btn9" class="btn"></button>
+        </div>
+        <button id="retryButton" style="display: none;">Retry</button>
+    </div>
+    
+    <script src="./script.js" ></script>    
+    
+</body>
+</html>
+
